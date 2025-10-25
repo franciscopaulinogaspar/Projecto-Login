@@ -13,7 +13,8 @@ Grandes Telas: de 768 até 992px*/
     }
     section#login{
         width: 60vw;
-        height: 60vh;
+        height: 300px;
+    
 
     }
     section#login > div#imagens{
@@ -36,7 +37,7 @@ Grandes Telas: de 768 até 992px*/
     }
     section#login{
         width: 750px;
-        height: 400px;
+        height: 350px;
 
     }
     section#login > div#imagens{
@@ -50,10 +51,11 @@ Grandes Telas: de 768 até 992px*/
         width:50%;
     }
     div#formulario >h1{
-        font-size: 1.8em;
+        font-size: 1em;
     }
     div#formulario > p{
         font-size: 1em;
+        margin: 20px 0px;
     
     }
 }
