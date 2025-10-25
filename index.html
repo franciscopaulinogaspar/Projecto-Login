@@ -17,13 +17,18 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post">  
-                    <div class="campo1" autocomplete="on">
+                    
+                    <div class="campo" autocomplete="on">
                         <span class="material-symbols-outlined">
                             person
                             </span>
+
                         <input type="email" name="login" id="ilogin" placeholder="Seu gmail" autocomplete="email" required maxlength="30">
+
                         <label for="ilogin">Login</label>
+                    
                     </div>
+
                     <div class="campo">
                         <span class="material-symbols-outlined">
                             vpn_key
@@ -32,8 +37,10 @@
 
                       <label for="isenha">Senha</label>
                     </div>
+
                     <input type="submit" value="Entrar">
-                   <a href="esqueci.htmnl">Esqueci a senha <span class="material-symbols-outlined">
+                   
+                    <a href="esqueci.htmnl" class="botao">Esqueci a senha <span class="material-symbols-outlined">
                     mail
                     </span>
                 </a>
